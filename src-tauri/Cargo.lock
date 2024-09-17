@@ -76,7 +76,7 @@ checksum = "0891bc0dc36efe8cc0e9025e6b4db8fac47f134004fb0d00f582ae5e8387625d"
 
 [[package]]
 name = "app"
-version = "3.0.0"
+version = "3.1.0"
 dependencies = [
  "api",
  "reqwest 0.12.7",

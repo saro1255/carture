@@ -6,7 +6,7 @@
 fn main() {
     let app = tauri::Builder::default()
     // on an actual app, remove the string argument
-    .build(tauri::generate_context!("C:/Testing/sep3/src-tauri/tauri.conf.json"))
+    .build(tauri::generate_context!("./tauri.conf.json"))
     .expect("error while building tauri application");
     app.run(|_app_handle, event| match event {
     tauri::RunEvent::Updater(updater_event) => {
